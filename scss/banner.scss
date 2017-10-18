@@ -30,3 +30,45 @@
 		margin:0;
 	}
 }
+
+@media (min-width:0px) and (max-width:680px) {
+	.hidden-xs,.hidden-sm{
+		display: none;
+	}
+	.banner-container{
+		.banner-information{
+			min-height: 1200px;
+			background:url('../img/banner.png')no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		padding:0;
+
+		img{
+			max-width:100%;
+		}
+
+		.text-banner{
+			position:relative;
+			top:0;
+			text-align:center;
+			left:0;
+			h3{
+				color:$h4-banner-color;
+				font-family:"Avenir Black";
+				font-size:1em;
+			}
+			h4{
+				color:$h3-banner-color;
+			}
+		}
+		.last-text{
+			top:0 !important;
+		}
+		.align-items-center{
+			margin:0;
+		}
+	}
+}

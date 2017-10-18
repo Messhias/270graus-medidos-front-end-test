@@ -51,3 +51,58 @@
 
 	}
 }
+@media (min-width:0px) and (max-width:680px) {
+	#who-we-are{
+		background:$blue;
+		*{
+			color:$white;
+		}
+
+		h2{
+			padding-top:15px;
+		}
+		.who-we-are-background{
+			background:url('../img/who-we-are-background.png')no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		.paragraph-col{
+			margin-top:30px;
+			font-size:1.3em;
+		}
+		.low-information{
+			font-size:0.7em;
+			margin-top:40px;
+		}
+
+		.background-white{
+			background-color:$white;
+			*{
+				color:$menu-link-color;
+			}
+
+			.paragraph-col{
+				margin-top:80px;
+				font-size:1.3em;
+				.blue-color{
+					color:$blue;
+				}
+			}
+			.low-information{
+				font-size:0.8em;
+				margin-top:40px;
+			}
+
+			.col{
+				img{
+					position: none;
+					left: 0;
+					top: 0;
+				}
+			}
+
+		}
+	}
+}

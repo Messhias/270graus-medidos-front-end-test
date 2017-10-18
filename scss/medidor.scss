@@ -89,3 +89,43 @@
 	}
 
 }
+
+
+@media (min-width:0px) and (max-width:680px) {
+	.medidor-do{
+		h1{
+			top:0;
+			text-align:center;
+			color:$blue;
+			strong{
+				font-weight:bolder;
+				font-family:'Avenir Black';
+			}
+		}
+	}
+
+	.medidor-info2{
+
+		h1{
+			padding-top:10px;
+			text-align:center;
+			font-family:"Avenir Black";
+		}
+		.figures{
+			.medidor-image-illustration-container{
+				img{
+					margin-left:0;
+				}
+			}
+		}
+
+		.orange{
+			ul{
+				li{
+					width:100%;
+				}
+			}
+		}
+	}
+
+}
