@@ -1,0 +1,32 @@
+.banner-container{
+	.banner-information{
+		height:100vh;
+		background:url('../img/banner.png')no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	padding:0;
+
+	.text-banner{
+		position:relative;
+		top:-80px;
+		text-align:center;
+		left:-45px;
+		h3{
+			color:$h4-banner-color;
+			font-family:"Avenir Black";
+			font-size:1.4em;
+		}
+		h4{
+			color:$h3-banner-color;
+		}
+	}
+	.last-text{
+		top:-65px !important;
+	}
+	.align-items-center{
+		margin:0;
+	}
+}

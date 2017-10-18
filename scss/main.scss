@@ -1,7 +1,13 @@
 // first we import t he main colors for template
 @import "colors";
-
+@import "font";
 
 
 
 @import "menu";
+@import "banner";
+@import "who-we-are";
+
+*{
+	font-family:'Avenir Roman';
+}
