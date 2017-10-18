@@ -1,5 +1,23 @@
 .set-menu-to-the-right{
 	ms-flex-pack: end !important;
 	flex-basis:auto;
-	background-color:$white;
+
+	.navbar-nav{
+		.nav-item{
+			.nav-link{
+				color:$menu-link-color;
+				padding-right:20px;
+				padding-left:20px;
+			}
+		}
+	}
+
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+	color:$orange;
+}
+
+
+nav.bg-light{
+	background-color:$white !important; 
 }
