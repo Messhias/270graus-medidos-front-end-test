@@ -1,0 +1,36 @@
+.medidor{
+	margin-top:80px;	
+	background:url('../img/medidor-bg.png')no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	.paragraph-col{
+		margin-top:80px;
+		font-size:1.3em;
+		.blue-color{
+			color:$blue;
+		}
+	}
+	.low-information{
+		font-size:0.8em;
+		margin-top:40px;
+	}
+
+}
+.medidor-do{
+	margin-top:80px;	
+	background:url('../img/wifi-bg.png')no-repeat center;
+	min-height:300px;
+
+	h1{
+		position:relative;
+		top:80px;
+		text-align:center;
+		color:$blue;
+		strong{
+			font-weight:bolder;
+		}
+	}
+
+}
